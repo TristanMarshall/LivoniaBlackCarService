@@ -50,9 +50,9 @@ nav {
 }
 
 .MainLogo {
-  width: 25%;
-  margin-top: -53.1%;
-  margin-left: 36.9%;
+  width: 33.3%;
+  margin-top: -53.8%;
+  margin-left: 32.9%;
   position: absolute;
   display: none;
 }
@@ -83,6 +83,7 @@ nav {
   margin-left: 5%;
   margin-top: -1%;
   padding-top: 1.1%; 
+  padding-bottom: 4%;
 }
 
 #top {
@@ -179,7 +180,7 @@ nav {
   width: 100%;
   margin-left: 2.6%;
   margin-top: 2.3%;
-  padding-bottom: 150%;
+  padding-bottom: 250%;
   border: solid black 0.2vw;
 }
 
@@ -213,7 +214,61 @@ nav {
   margin-bottom: 3%;
 }
 
+.vehicles {
+  letter-spacing: 0.1vw;
+  font-family: Josefin sans;
+  font-size: 1.5vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 /*END OF FLEET CSS*/
+/*SERVICES */
+
+.fleetDiv3 {
+  background-color: #CBCBCB;
+  height: 0;
+  width: 100%;
+  margin-left: 2.6%;
+  margin-top: 2.3%;
+  padding-bottom: 125%;
+  border: solid black 0.2vw;
+}
+
+.serviceTitle {
+  text-align: center;
+  font-family: cinzel;
+  font-size: 3vw;
+}
+.pricing {
+  text-align: center;
+  font-family: archivo narrow;
+  font-size: 1.2vw;
+  margin-top: 0.7%;
+  font-style: italic;
+  margin-bottom: -0.3%;
+}
+
+.serviceDiv {
+  background-color: #F9F9F9;
+  width: 68%;
+  margin-left: 13%;
+  padding-top: 0.5%;
+  padding-left: 2.5%;
+  padding-bottom: 0%;
+  padding-right: 2.5%;
+  border: .1vw solid black;
+}
+
+.type {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  margin-top: 1%;
+  font-family: teko;
+  text-align: center;
+}
 
 .stock {
   width: 100%;
@@ -302,11 +357,13 @@ nav {
 }
 
 #footerImage {
-  width: 22%;
+  width: 16%;
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 1%;
 }
+
+
 
 
 /*//////////////////////////////////////////////
