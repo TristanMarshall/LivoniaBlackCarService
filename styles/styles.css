@@ -54,7 +54,8 @@ nav {
   margin-top: -53.8%;
   margin-left: 32.9%;
   position: absolute;
-  display: none;
+
+  z-index: 1000;
 }
 
 .big {
@@ -189,6 +190,7 @@ nav {
   font-family: cinzel;
   text-decoration: underline;
   margin-bottom: -1%;
+  font-size: 2vw;
 }
 
 .photoSpace {
@@ -268,6 +270,7 @@ nav {
   margin-top: 1%;
   font-family: teko;
   text-align: center;
+  font-size: 2vw;
 }
 
 .stock {
@@ -323,8 +326,8 @@ nav {
 }
 
 .phone2 {
-  margin-left: 42%;
-  margin-top: -13.2%;
+  margin-left: 32%;
+  margin-top: -17.1%;
   font-size: 1.7vw;
   font-family: teko;
 }
@@ -340,6 +343,16 @@ nav {
   margin-top: -13%;
   font-size: 1.7vw;
   font-family: teko;
+  text-decoration: none;
+}
+
+.mailLink{
+  text-decoration: none;
+  color: black;
+}
+
+.mailLink:hover{
+  color: white;
 }
 
 .facebook {
@@ -372,9 +385,390 @@ nav {
 ////////////////////////////////////////////////
 //////////////////////////////////////////////*/
 
-/*@media (max-width:1000px) {
+@media (max-width:1000px) {
 
-}*/
+  html, body {
+  width: 100%;
+  min-height: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: black;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: black;
+  position: fixed;
+  z-index: 1;
+  display: none;
+}
+
+.navLink {
+  font-family: teko;
+  text-decoration: none;
+  float: right;
+  font-size: 2.3vw;
+  text-decoration: none;
+  color: white;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  letter-spacing: 0.5vw;
+}
+
+.navLink:hover {
+  color: #777777;
+}
+
+.MainPhoto {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.blackDiv {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  margin-top: 4%;
+  padding-bottom: 60%;
+}
+
+.MainLogo {
+  width: 50.3%;
+  margin-top: 15.2%;
+  margin-left: 24.7%;
+  position: absolute;
+}
+
+.big {
+  color: #777777;
+  font-family: cinzel;
+  font-size: 4vw;
+  margin-top: 52.7%;
+  margin-left: 10%;
+  position: absolute;
+  display: none;
+}
+
+.small {
+  color: #777777;
+  font-family: cinzel;
+  margin-top: 57.7%;
+  margin-left: 45%;
+  font-size: 3.5vw;
+  position: absolute;
+  display: none;
+}
+
+.mainDiv {
+  width: 90%;
+  background-color: #C5C5C5;
+  margin-left: 5%;
+  margin-top: -1%;
+  padding-top: 1.1%; 
+  padding-bottom: 4%;
+}
+
+#top {
+  margin-top: -0.9%;
+  border: none;
+}
+
+#line1 {
+  background-color: white;
+  margin-bottom: 5%;
+  border: none;
+  margin-top: 69%;
+}
+
+#line2 {
+  background-color: white;
+  margin-bottom: 8%;
+  border: none;
+
+}
+
+#line3 {
+  background-color: white;
+  margin-bottom: 8%;
+  border: none;
+}
+
+#line4 {
+  background-color: white;
+  margin-bottom: 8%;
+  border: none;
+}
+
+.aboutUs {
+  width: 90%;
+  margin-left: 2.8%;
+  margin-top: 8%;
+  margin-bottom: 15%;
+  border: 2vw solid rgb(255, 255, 255);
+  box-shadow: 0vw 0vw 2vw 1vw rgb(229, 229, 229);
+}
+
+.who {
+  font-size: 3.7vw;
+  font-family: cinzel;
+  margin-bottom: 0%;
+  margin-top: 11.9%;
+  position: absolute;
+  margin-left: 34.2%;
+}
+
+.who2 {
+  text-align: center;
+  width: 71.6%;
+  height: auto;
+  font-size: 2.1vw;
+  margin-left: 5.2%;
+  position: absolute;
+  margin-top: 17.1%;
+  margin-bottom: 29%;
+  font-family: playfair display sc;
+  line-height: 3.9vw;
+  background-color: rgb(197, 197, 197);
+  padding-left: 4%;
+  padding-right: 3.6%;
+  border: .2vw solid black;
+}
+
+/*FLEET CSS*/
+
+.fleetTitle {
+  color: white;
+  font-family: cinzel;
+  font-size: 7vw;
+  margin-top: -13%;
+  margin-left: 4%;
+  margin-bottom: 6%;
+}
+
+.fleetDiv {
+  width: 90%;
+  height: auto;
+  margin-left: 1%;
+  background-color: #E1E1E1;
+  padding-left: 1%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 1vw solid white;
+  box-shadow: 0vw 0vw 0vw 0vw rgb(229, 229, 229);
+}
+
+.fleetDiv2 {
+  background-color: #E1E1E1;
+  height: 0;
+  width: 106%;
+  margin-left: -0.9%;
+  margin-top: 2.3%;
+  padding-bottom: 284%;
+  border: solid black 0;
+}
+
+.vehicleTitle {
+  text-align: center;
+  font-family: cinzel;
+  text-decoration: underline;
+  margin-bottom: -1%;
+  font-size: 3vw;
+}
+
+.photoSpace {
+  width: 54%;
+  margin-top: 1%;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-bottom: 1%;
+  float: left;
+  border: 0.2vw solid black;
+}
+
+.vehicleDescription {
+  background-color: white;
+  width: 91.8%;
+  float: left;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.vehicles {
+  letter-spacing: 0.1vw;
+  font-family: Josefin sans;
+  font-size: 2.5vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/*END OF FLEET CSS*/
+/*SERVICES */
+
+.fleetDiv3 {
+  background-color: #C5C5C5;
+  height: 0;
+  width: 106%;
+  margin-left: -0.9%;
+  margin-top: 2.3%;
+  padding-bottom: 155%;
+}
+
+.serviceTitle {
+  text-align: center;
+  font-family: cinzel;
+  font-size: 5vw;
+}
+.pricing {
+  text-align: center;
+  font-family: archivo narrow;
+  font-size: 2.7vw;
+  margin-top: 0.7%;
+  font-style: italic;
+  margin-bottom: -0.3%;
+}
+
+.serviceDiv {
+  background-color: #F9F9F9;
+  width: 92%;
+  margin-left: 1.4%;
+  padding-top: 0.5%;
+  padding-left: 2.5%;
+  padding-bottom: 0.1%;
+  padding-right: 2.5%;
+  border: .1vw solid black;
+}
+
+.type {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 0%;
+  margin-top: 1%;
+  font-family: teko;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.stock {
+  width: 100%;
+  margin-bottom: 3%;
+  margin-top: -4%;
+}
+
+.contactImg {
+  width: 100%;
+}
+
+.blackDiv2 {
+  width: 100%;
+  height: 0;
+  padding-bottom: 42%;
+  background-color: rgba(0, 0, 0, 0.84);
+  margin-top: -44.3%;
+  position: absolute;
+  margin-left: 0%;
+  border: 2vw solid black;
+}
+
+.contacth2 {
+  color: #C5C5C5;
+  font-size: 4vw;
+  margin-left: 12.7%;
+  margin-right: 2%;
+  margin-top: 17%;
+  font-family: teko;
+  float: left;
+}
+
+.brace {
+  width: 40.5%;
+  margin-top: 1.6%;
+  margin-left: -23%;
+  float: left;
+}
+
+.contactDiv {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 43.1%;
+  margin-top: 1.5%;
+  margin-left: 48.7%;
+  border: 0.9vw solid gray;
+}
+
+.phone {
+  width: 93%;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+.phone2 {
+  margin-left: 32%;
+  margin-top: -17.1%;
+  font-size: 2.5vw;
+  margin-bottom: 3%;
+  font-family: teko;
+}
+
+.mail {
+  width: 93%;
+  padding-left: 3%;
+  padding-top: 11%;
+}
+
+.mail2 {
+  margin-left: 30%;
+  margin-top: -12.7%;
+  font-size: 2.7vw;
+  font-family: teko;
+  text-decoration: none;
+}
+
+.mailLink{
+  text-decoration: none;
+  color: black;
+}
+
+.mailLink:hover{
+  color: white;
+}
+
+.facebook {
+  width: 93%;
+  padding-left: 3%;
+  padding-top: 13%;
+}
+
+.facebook2 {
+  margin-left: 25%;
+  margin-top: -14%;
+  font-size: 2.7vw;
+  font-family: teko;
+  padding-bottom: 2.5%;
+}
+
+#footerImage {
+  width: 16%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+}
+
+
+
+
+}
 
 
 /*//////////////////////////////////////////////
@@ -383,6 +777,6 @@ nav {
 ////////////////////////////////////////////////
 //////////////////////////////////////////////*/
 
-/*@media (max-width:800px) {
+/*@media (max-width:500px) {
 
 }*/
